@@ -8,8 +8,7 @@
 }
 
 body{
-    background-color: #333;
-    color: antiquewhite;
+    color: #333;
 }
 
 li{
@@ -28,6 +27,10 @@ a.active{
     color: blue;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     max-width: 1100px;
     margin: 0 auto;
@@ -37,7 +40,8 @@ a.active{
 .nav-container{
     display: flex;
    flex-direction: column;
-   padding: 2rem 1rem;
+   margin-top: 10rem;
+   margin-bottom: 2rem;
 }
 
 .nav-links{
@@ -46,6 +50,15 @@ a.active{
     justify-content: center;
     gap: .2rem;
     margin-top: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h1 img{
+    height: 100px;
+    width: 140px;
 }
 
 li:nth-child(1), li:nth-child(2){
@@ -59,4 +72,17 @@ li:nth-child(1), li:nth-child(2){
 
 .hero a{
     color: blue;
+}
+
+address {
+    font-style:normal;
+    font-weight: bold;
+
+}
+
+.hero address a{
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    
 }
